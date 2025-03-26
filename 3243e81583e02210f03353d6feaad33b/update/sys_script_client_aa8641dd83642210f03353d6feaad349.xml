@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Demonstração Cliente Script</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   alert("Demonstração de Script em modo onLoad");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 19:45:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa8641dd83642210f03353d6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demonstração Cliente Script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt " source="x_1623855_needit">3243e81583e02210f03353d6feaad33b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt ">3243e81583e02210f03353d6feaad33b</sys_scope>
+        <sys_update_name>sys_script_client_aa8641dd83642210f03353d6feaad349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 19:45:14</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
